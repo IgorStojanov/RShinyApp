@@ -1,0 +1,38 @@
+Presentation.R
+========================================================
+author: Igor Stojanov
+date: 25/01/2015
+
+Contents 
+========================================================
+
+This presentation :
+
+- was made with Rstudio Presenter
+- has 5 pages
+- is hosed on github
+- contains embeded R code
+
+Contents 
+========================================================
+
+My Shiny App can do the following:
+
+- read speed of light data from morley
+- create histogram
+- change settings of histogram
+- show density estimation
+
+Data used
+========================================================
+
+```{r}
+summary(morley)
+```
+
+Plot of columns 
+========================================================
+
+```{r, echo=FALSE}
+plot(morley)
+```
